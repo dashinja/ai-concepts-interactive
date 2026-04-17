@@ -8,7 +8,7 @@ interface SpeakButtonProps {
 }
 
 const ELEVENLABS_API_KEY = "sk_379baf4a549e28b2d0da7798d6f028d7ea2344aab8348b79";
-const VOICE_ID = "nPczCjzI2devNBz1zQrb"; // Brian — deep, resonant, great for narration
+const VOICE_ID = "XrExE9yKIg1WjnnlVkGX"; // Matilda — warm, smooth American female, audiobook narration
 const MODEL_ID = "eleven_turbo_v2_5"; // Fast, high-quality
 
 export default function SpeakButton({ text, speaking, setSpeaking, color = "var(--cyan)" }: SpeakButtonProps) {
